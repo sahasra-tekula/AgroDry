@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Frontend
+node_modules/
+dist/
+
+# Local configuration and data
+.env
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor and operating-system files
+.vscode/*
+!.vscode/tasks.json
+.DS_Store
+Thumbs.db
